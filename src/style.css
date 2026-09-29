@@ -1,0 +1,130 @@
+/* --- Old-School Print Aesthetics --- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Warm cream/book-paper color palette */
+  background-color: #fbf9f4;
+  color: #1c1a17;
+  
+  /* Traditional literary serif typography */
+  font-family: "Georgia", "Times New Roman", Times, serif;
+  line-height: 1.65;
+  font-size: 18px;
+  padding: 3rem 1.5rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Rigid Structure (Inspired by TypeSafe Layout) --- */
+.site-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 4rem;
+  border-bottom: 2px solid #1c1a17; /* Strong ink-like line separator */
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  color: #1c1a17;
+  text-decoration: none;
+}
+
+nav a {
+  color: #5a5245;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+  font-variant: small-caps; /* Gives an old-school editorial look */
+}
+
+nav a:hover {
+  color: #1c1a17;
+  text-decoration: underline;
+}
+
+/* --- Editorial Article Content --- */
+article h1 {
+  font-size: 2.4rem;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #000000;
+  margin-bottom: 0.75rem;
+}
+
+.post-meta {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #6e6454;
+  margin-bottom: 2.5rem;
+  display: block;
+}
+
+/* Comfortable reading rhythm */
+p {
+  margin-bottom: 1.6rem;
+  text-align: justify; /* Optional: adds a classic book layout effect */
+  text-justify: inter-word;
+}
+
+/* Subtle old-school book indent layout (Optional alternate choice) */
+/* p + p { text-indent: 1.5em; margin-bottom: 0; } */
+
+h2, h3 {
+  font-weight: normal;
+  color: #1c1a17;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.6rem;
+  border-bottom: 1px dashed #c4bcae; /* Soft paper division line */
+  padding-bottom: 0.3rem;
+}
+
+/* --- Hyperlinks & Visual Accents --- */
+a {
+  color: #1c1a17;
+  text-decoration: underline;
+  text-decoration-color: #8c7e6b;
+  text-underline-offset: 3px;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: #8c7e6b;
+  text-decoration-color: #1c1a17;
+}
+
+/* Blockquotes optimized for comfort */
+blockquote {
+  margin: 2rem 0;
+  padding-left: 1.5rem;
+  border-left: 3px solid #8c7e6b;
+  font-style: italic;
+  color: #4a4235;
+}
+
+/* --- Footer --- */
+footer {
+  margin-top: 5rem;
+  border-top: 1px solid #c4bcae;
+  padding-top: 2rem;
+  font-size: 0.85rem;
+  color: #6e6454;
+  text-align: center;
+  font-variant: small-caps;
+}
