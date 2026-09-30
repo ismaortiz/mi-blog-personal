@@ -41,7 +41,7 @@ header {
   text-decoration: none;
 }
 
-nav a {
+p a {
   color: #5a5245;
   text-decoration: none;
   margin-left: 1.5rem;
@@ -49,9 +49,17 @@ nav a {
   font-variant: small-caps; /* Gives an old-school editorial look */
 }
 
-nav a:hover {
+p a:hover {
   color: #1c1a17;
   text-decoration: underline;
+}
+
+.citacion{
+  color: #5a5245;
+  text-decoration: none;
+  margin-left: 0rem;
+  font-size: 0.95rem;
+  font-variant: small-caps;
 }
 
 /* --- Editorial Article Content --- */
