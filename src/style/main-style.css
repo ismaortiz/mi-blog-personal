@@ -55,11 +55,7 @@ p a:hover {
 }
 
 .citacion{
-  color: #5a5245;
-  text-decoration: none;
   margin-left: 0rem;
-  font-size: 0.95rem;
-  font-variant: small-caps;
 }
 
 /* --- Editorial Article Content --- */
@@ -137,3 +133,13 @@ footer {
   font-variant: small-caps;
 }
 
+.media {
+    -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
+    filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
+    mix-blend-mode: multiply;
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
